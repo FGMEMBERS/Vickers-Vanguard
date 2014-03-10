@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <!-- Gauche rangée extérieure -->
+  <model>
+    <path>Aircraft/Vickers-Vanguard/Models/Interior/Seats/seatL.xml</path>
+    <offsets>
+      <x-m> -12.30 </x-m>
+      <y-m>  -1.40 </y-m>
+      <z-m>  -1.93 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Vickers-Vanguard/Models/Interior/Seats/seatL.xml</path>
+    <offsets>
+      <x-m> -11.30 </x-m>
+      <y-m>  -1.40 </y-m>
+      <z-m>  -1.93 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Vickers-Vanguard/Models/Interior/Seats/seatL.xml</path>
+    <offsets>
+      <x-m> -10.30 </x-m>
+      <y-m>  -1.40 </y-m>
+      <z-m>  -1.93 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Vickers-Vanguard/Models/Interior/Seats/seatL.xml</path>
+    <offsets>
+      <x-m> -9.30 </x-m>
+      <y-m> -1.40 </y-m>
+      <z-m> -1.93 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Vickers-Vanguard/Models/Interior/Seats/seatL.xml</path>
+    <offsets>
+      <x-m> -8.30 </x-m>
+      <y-m> -1.40 </y-m>
+      <z-m> -1.93 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Vickers-Vanguard/Models/Interior/Seats/seatL.xml</path>
+    <offsets>
+      <x-m> -7.30 </x-m>
+      <y-m> -1.40 </y-m>
+      <z-m> -1.93 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- Gauche rangée intérieure -->
+  <model>
+    <path>Aircraft/Vickers-Vanguard/Models/Interior/Seats/seatL.xml</path>
+    <offsets>
+      <x-m> -12.30 </x-m>
+      <y-m>  -0.90 </y-m>
+      <z-m>  -1.93 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Vickers-Vanguard/Models/Interior/Seats/seatL.xml</path>
+    <offsets>
+      <x-m> -11.30 </x-m>
+      <y-m>  -0.90 </y-m>
+      <z-m>  -1.93 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Vickers-Vanguard/Models/Interior/Seats/seatL.xml</path>
+    <offsets>
+      <x-m> -10.30 </x-m>
+      <y-m>  -0.90 </y-m>
+      <z-m>  -1.93 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Vickers-Vanguard/Models/Interior/Seats/seatL.xml</path>
+    <offsets>
+      <x-m> -9.30 </x-m>
+      <y-m> -0.90 </y-m>
+      <z-m> -1.93 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Vickers-Vanguard/Models/Interior/Seats/seatL.xml</path>
+    <offsets>
+      <x-m> -8.30 </x-m>
+      <y-m> -0.90 </y-m>
+      <z-m> -1.93 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Vickers-Vanguard/Models/Interior/Seats/seatL.xml</path>
+    <offsets>
+      <x-m> -7.30 </x-m>
+      <y-m> -0.90 </y-m>
+      <z-m> -1.93 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- Droite rangée extérieure -->
+  <model>
+    <path>Aircraft/Vickers-Vanguard/Models/Interior/Seats/seatR.xml</path>
+    <offsets>
+      <x-m> -12.30 </x-m>
+      <y-m>   1.40 </y-m>
+      <z-m>  -1.93 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Vickers-Vanguard/Models/Interior/Seats/seatR.xml</path>
+    <offsets>
+      <x-m> -11.30 </x-m>
+      <y-m>   1.40 </y-m>
+      <z-m>  -1.93 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Vickers-Vanguard/Models/Interior/Seats/seatR.xml</path>
+    <offsets>
+      <x-m> -10.30 </x-m>
+      <y-m>   1.40 </y-m>
+      <z-m>  -1.93 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Vickers-Vanguard/Models/Interior/Seats/seatR.xml</path>
+    <offsets>
+      <x-m> -9.30 </x-m>
+      <y-m>  1.40 </y-m>
+      <z-m> -1.93 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Vickers-Vanguard/Models/Interior/Seats/seatR.xml</path>
+    <offsets>
+      <x-m> -8.30 </x-m>
+      <y-m>  1.40 </y-m>
+      <z-m> -1.93 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Vickers-Vanguard/Models/Interior/Seats/seatR.xml</path>
+    <offsets>
+      <x-m> -7.30 </x-m>
+      <y-m>  1.40 </y-m>
+      <z-m> -1.93 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- Droite rangée intérieure -->
+  <model>
+    <path>Aircraft/Vickers-Vanguard/Models/Interior/Seats/seatR.xml</path>
+    <offsets>
+      <x-m> -12.30 </x-m>
+      <y-m>   0.90 </y-m>
+      <z-m>  -1.93 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Vickers-Vanguard/Models/Interior/Seats/seatR.xml</path>
+    <offsets>
+      <x-m> -11.30 </x-m>
+      <y-m>   0.90 </y-m>
+      <z-m>  -1.93 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Vickers-Vanguard/Models/Interior/Seats/seatR.xml</path>
+    <offsets>
+      <x-m> -10.30 </x-m>
+      <y-m>   0.90 </y-m>
+      <z-m>  -1.93 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Vickers-Vanguard/Models/Interior/Seats/seatR.xml</path>
+    <offsets>
+      <x-m> -9.30 </x-m>
+      <y-m>  0.90 </y-m>
+      <z-m> -1.93 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Vickers-Vanguard/Models/Interior/Seats/seatR.xml</path>
+    <offsets>
+      <x-m> -8.30 </x-m>
+      <y-m>  0.90 </y-m>
+      <z-m> -1.93 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Vickers-Vanguard/Models/Interior/Seats/seatR.xml</path>
+    <offsets>
+      <x-m> -7.30 </x-m>
+      <y-m>  0.90 </y-m>
+      <z-m> -1.93 </z-m>
+    </offsets>
+  </model>
+  
+</PropertyList>

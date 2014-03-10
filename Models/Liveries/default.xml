@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+  
+  <sim>
+    
+    <model>
+      <livery>
+        <name type="string">Default</name>
+        <texture>texture.png</texture>
+        <specular>
+          <red>   0.3 </red>
+          <green> 0.3 </green>
+          <blue>  0.3 </blue>
+        </specular>
+      </livery>
+      <merchantman>0</merchantman>
+      <door-positions>
+        <passenger>
+          <position-norm>0</position-norm>
+        </passenger>
+      </door-positions>
+    </model>
+    <multiplay>
+      <generic>
+        <int n="7">0</int>
+        <float n="1">0</float>
+      </generic>
+    </multiplay>
+    
+  </sim>
+  
+</PropertyList>

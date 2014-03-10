@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+  
+  <sim>
+    
+    <model>
+      <livery>
+        <name type="string">Mixte Cargo/Passangers</name>
+        <texture>Liveries/1024x1024/cargo.png</texture>
+        <specular>
+          <red>   0.3 </red>
+          <green> 0.3 </green>
+          <blue>  0.3 </blue>
+        </specular>
+      </livery>
+      <merchantman>1</merchantman>
+    </model>
+    <multiplay>
+      <generic>
+        <int n="7">1</int>
+      </generic>
+    </multiplay>
+    
+  </sim>
+  
+</PropertyList>
