@@ -154,7 +154,7 @@
   </animation>
 
   <effect>
-    <inherits-from>Aircraft/Generic/Effects/Fuselagereflect</inherits-from>
+    <inherits-from>Aircraft/Vickers-Vanguard/Models/Effects/BumpMap/bumpmap</inherits-from>
     <object-name>fuselage</object-name>
     <object-name>ailes</object-name>
     <object-name>voletG1</object-name>
@@ -193,6 +193,46 @@
     <object-name>portesouteBB</object-name>
   </effect>
 
+  <effect>
+    <inherits-from>Aircraft/Generic/Effects/Fuselagereflect</inherits-from>
+    <object-name>fuselage</object-name>
+    <object-name>ailes</object-name>
+    <object-name>voletG1</object-name>
+    <object-name>voletG2</object-name>
+    <object-name>voletD1</object-name>
+    <object-name>voletD2</object-name>
+    <object-name>aileronG</object-name>
+    <object-name>aileronD</object-name>
+    <object-name>ailes2</object-name>
+    <object-name>profondeurG</object-name>
+    <object-name>profondeurD</object-name>
+    <object-name>direction</object-name>
+    <object-name>moteursE</object-name>
+    <object-name>moteursI</object-name>
+    <object-name>porteAG</object-name>
+    <object-name>porteAD</object-name>
+    <object-name>porteGG1</object-name>
+    <object-name>porteGD1</object-name>
+    <object-name>porteGG2</object-name>
+    <object-name>porteGD1</object-name>
+    <object-name>porteDG1</object-name>
+    <object-name>porteDD1</object-name>
+    <object-name>porteDG2</object-name>
+    <object-name>porteDD1</object-name>
+    <object-name>bolGE</object-name>
+    <object-name>bolGI</object-name>
+    <object-name>bolDI</object-name>
+    <object-name>bolDE</object-name>
+    <object-name>cacheshublots</object-name>
+    <object-name>cacheshublotsrear</object-name>
+    <object-name>cacheshublotsbay</object-name>
+    <object-name>bay</object-name>
+    <object-name>portesouteAH</object-name>
+    <object-name>portesouteAB</object-name>
+    <object-name>portesouteBH</object-name>
+    <object-name>portesouteBB</object-name>
+  </effect>
+  
   <!-- working for Rembrandt -->
   <effect>
     <inherits-from>Aircraft/Vickers-Vanguard/Models/Effects/Glass/glass</inherits-from>
@@ -1407,4 +1447,59 @@
     </axis>
   </animation>
 
+  <!-- Lighting effects -->
+  <model>
+    <path>Aircraft/Vickers-Vanguard/Models/lights/beacon.xml</path>
+    <offsets>
+      <x-m> 15.96732 </x-m>
+      <y-m>  0.00000 </y-m>
+      <z-m>  5.60019 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Vickers-Vanguard/Models/lights/beacon.xml</path>
+    <offsets>
+      <x-m> -12.88399 </x-m>
+      <y-m>   0.00000 </y-m>
+      <z-m>  -4.50251 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Vickers-Vanguard/Models/lights/RedLight.xml</path>
+    <offsets>
+      <x-m>  -2.45026 </x-m>
+      <y-m> -18.00150 </y-m>
+      <z-m>  -1.65168 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Vickers-Vanguard/Models/lights/StrobeLight.xml</path>
+    <offsets>
+      <x-m>  -2.35026 </x-m>
+      <y-m> -18.00150 </y-m>
+      <z-m>  -1.65168 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Vickers-Vanguard/Models/lights/GreenLight.xml</path>
+    <offsets>
+      <x-m> -2.45026 </x-m>
+      <y-m> 18.00150 </y-m>
+      <z-m> -1.65168 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Vickers-Vanguard/Models/lights/StrobeLight.xml</path>
+    <offsets>
+      <x-m> -2.35026 </x-m>
+      <y-m> 18.00150 </y-m>
+      <z-m> -1.65168 </z-m>
+    </offsets>
+  </model>
+  
 </PropertyList>

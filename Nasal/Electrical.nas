@@ -250,7 +250,6 @@ init_switches = func() {
     }
 }
 
-
 update_virtual_bus = func( dt ) {
     var PWR = getprop("systems/electrical/serviceable");
     var battery_volts = battery.get_output_volts();
@@ -351,7 +350,6 @@ INSTR_DIMMER = getprop("controls/lighting/instruments-norm");
 EFIS_DIMMER = getprop("controls/lighting/efis-norm");
 ENG_DIMMER = getprop("controls/lighting/engines-norm");
 PANEL_DIMMER = getprop("controls/lighting/panel-norm");
-
 
 srvc=0+getprop("controls/electric/avionics-switch");
 load +=srvc * 0.2;

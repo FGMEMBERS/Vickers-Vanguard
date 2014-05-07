@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+  
+  
+  <sim>
+    <model>
+      <livery>
+        <name type="string">British Airways Cargo (1976)</name>
+        <texture>Liveries/2048x2048/BAcargo.png</texture>
+        <specular>
+          <red>   0.3 </red>
+          <green> 0.3 </green>
+          <blue>  0.3 </blue>
+        </specular>
+      </livery>
+      <merchantman>2</merchantman>
+    </model>
+    <multiplay>
+      <generic>
+        <int n="7">2</int>
+      </generic>
+    </multiplay>
+    
+  </sim>
+  
+</PropertyList>
