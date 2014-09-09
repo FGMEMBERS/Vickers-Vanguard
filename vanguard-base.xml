@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <sim include="Systems/views.xml">
+
+    <description>Vickers Vanguard</description>
+    <author>BARANGER Emmanuel (3D/FDM)</author>
+    <aircraft-version>0.1</aircraft-version>
+    <status>Alpha</status>
+   
+    <fuel-fraction>1.0</fuel-fraction>
+  
+    <startup>
+      <splash-texture>Aircraft/Vickers-Vanguard/vanguard-splash.png</splash-texture>
+    </startup>
+
+    <sound>
+      <path>Aircraft/Vickers-Vanguard/Sounds/vanguard-sound.xml</path>
+    </sound>
+
+    <model>
+      <path>Aircraft/Vickers-Vanguard/Models/vanguard.xml</path>
+      <livery>
+        <file type="string">default</file>
+      </livery>
+      <merchantman>0</merchantman>
+    </model> 
+
+    <flaps>
+      <setting> 0.0 </setting>
+      <setting> 0.5 </setting>
+      <setting> 0.7 </setting>
+      <setting> 1.0 </setting>
+    </flaps>
+
+    <multiplay>
+      <chat_display>1</chat_display>
+      <generic> 
+        <int n="0" type="int">  0 </int>                                              <!--  0 immat -->
+        <int n="1" type="int">  0 </int>                                              <!--  1 immat -->
+        <int n="2" type="int">  0 </int>                                              <!--  2 immat -->
+        <int n="3" type="int">  0 </int>                                              <!--  3 immat -->
+        <int n="4" type="int">  0 </int>                                              <!--  4 immat -->
+        <int n="5" type="int">  0 </int>                                              <!--  5 immat -->
+        <int n="6" type="bool"> 1 </int>                                              <!-- 6 smoke/bomb/torpedo -->
+        <int n="7" type="int" alias="/sim/model/merchantman">0</int>                  <!-- 7 Mode 0=passenger 1=Mixte 2=Cargo -->
+        <int n="8" type="int" alias="/systems/electrical/outputs/nav-lights">0</int>  <!-- 8 nav-lights -->
+        <int n="9" type="int" alias="/sim/model/lights/beacon/state">false</int>      <!-- 9 strobe-lights -->
+        <int n="10" type="int" alias="/controls/electric/key-pos">0</int>             <!-- 10 key position -->
+        <float n="0" alias="/sim/model/door-positions/crew/position-norm"/>
+        <float n="1" alias="/sim/model/door-positions/passenger/position-norm"/>
+        <float n="2" alias="/position/gear-agl-m"> 0 </float>                         <!-- altitude for MP shadow -->
+        <float n="3" alias="/position/altitude-ft"> 0 </float>                        <!-- altitude for Smoke/Trail -->
+        <float n="4" alias="/engines/engine[0]/n1"/>
+        <float n="5" alias="/engines/engine[1]/n1"/>
+        <float n="6" alias="/engines/engine[2]/n1"/>
+        <float n="7" alias="/engines/engine[3]/n1"/>
+        <float n="8" alias="/engines/engine[0]/n2"/>
+        <float n="9" alias="/engines/engine[1]/n2"/>
+        <float n="10" alias="/engines/engine[2]/n2"/>
+        <float n="11" alias="/engines/engine[3]/n2"/>
+        <float n="12" alias="/gear/gear[0]/wow/"/>
+        <float n="13" alias="/gear/gear[1]/wow/"/>
+        <float n="14" alias="/gear/gear[2]/wow/"/>
+        <float n="15" alias="/gear/gear[0]/rollspeed-ms"/>
+        <float n="16" alias="/gear/gear[1]/rollspeed-ms"/>
+        <float n="17" alias="/gear/gear[2]/rollspeed-ms"/>
+        <!-- For Bombable -->
+        <int type="int" n="10" alias="controls/armament/trigger">0</int>
+        <string n="9" type="string" />
+      </generic>
+    </multiplay>
+    
+    <help include="Systems/help.xml"/>
+
+    <menubar include="Dialogs/vanguard-menu.xml"/>
+
+  </sim>
+
+  <input>
+    <keyboard include="Systems/vanguard-keyboard.xml"/>
+  </input>
+ 
+  <controls>
+    <flight>
+      <elevator-trim>-0.15</elevator-trim>
+    </flight>
+    <engines>
+      <engine n="0">
+        <magnetos>3</magnetos>
+      </engine>
+      <engine n="1">
+        <magnetos>3</magnetos>
+      </engine>
+      <engine n="2">
+        <magnetos>3</magnetos>
+      </engine>
+      <engine n="3">
+        <magnetos>3</magnetos>
+      </engine>
+    </engines>
+    <gear>
+      <brake-parking>1</brake-parking>
+      <tailwheel-lock type="bool">false</tailwheel-lock>
+    </gear>
+  </controls>
+
+  <engines>
+    <engine n="0">
+      <rpm type="double">700</rpm>
+    </engine>
+    <engine n="1">
+      <rpm type="double">700</rpm>
+    </engine>
+    <engine n="2">
+      <rpm type="double">700</rpm>
+    </engine>
+    <engine n="3">
+      <rpm type="double">700</rpm>
+    </engine>
+  </engines>
+  
+  <nasal>
+    <doors>
+      <file>Aircraft/Vickers-Vanguard/Nasal/doors.nas</file>
+    </doors>
+    <vanguard>
+      <file>Aircraft/Vickers-Vanguard/Nasal/liveries.nas</file>
+      <file>Aircraft/Vickers-Vanguard/Nasal/light.nas</file>
+    </vanguard>
+  </nasal>
+
+</PropertyList>

@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <path>panel.ac</path>
+
+  <animation>
+    <!-- Objets opaques -->
+    <object-name>panel</object-name>
+
+    <!-- Objets transparents -->
+  </animation>
+
+  <model>
+    <path>Aircraft/Vickers-Vanguard/Models/Interior/Panel/pedestal/pedestal.xml</path>
+    <offsets>
+      <x-m>  0.390 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m> -0.383 </z-m>
+    </offsets>
+  </model>
+
+  <!-- AI -->
+  <model>
+    <path>Aircraft/Vickers-Vanguard/Models/Interior/Panel/Instruments/ai/ai.xml</path>
+    <offsets>
+      <x-m>  0.064 </x-m>
+      <y-m> -0.580 </y-m>
+      <z-m>  0.030 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Vickers-Vanguard/Models/Interior/Panel/Instruments/ai/ai.xml</path>
+    <offsets>
+      <x-m> 0.064 </x-m>
+      <y-m> 0.580 </y-m>
+      <z-m> 0.030 </z-m>
+    </offsets>
+  </model>
+
+  <!-- ASI -->
+  <model>
+    <path>Aircraft/Vickers-Vanguard/Models/Interior/Panel/Instruments/asi/asi.xml</path>
+    <offsets>
+      <x-m>  0.064 </x-m>
+      <y-m> -0.670 </y-m>
+      <z-m>  0.026 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Vickers-Vanguard/Models/Interior/Panel/Instruments/asi/asi.xml</path>
+    <offsets>
+      <x-m> 0.064 </x-m>
+      <y-m> 0.490 </y-m>
+      <z-m> 0.026 </z-m>
+    </offsets>
+  </model>
+
+  <!-- ALT -->
+  <model>
+    <path>Aircraft/Vickers-Vanguard/Models/Interior/Panel/Instruments/alt/alt.xml</path>
+    <offsets>
+      <x-m>  0.064 </x-m>
+      <y-m> -0.490 </y-m>
+      <z-m>  0.026 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Vickers-Vanguard/Models/Interior/Panel/Instruments/alt/alt.xml</path>
+    <offsets>
+      <x-m> 0.064 </x-m>
+      <y-m> 0.670 </y-m>
+      <z-m> 0.026 </z-m>
+    </offsets>
+  </model>
+
+  <!-- ALT -->
+  <model>
+    <path>Aircraft/Vickers-Vanguard/Models/Interior/Panel/Instruments/adf/rmi.xml</path>
+    <offsets>
+      <x-m>  0.064 </x-m>
+      <y-m> -0.670 </y-m>
+      <z-m> -0.058 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Vickers-Vanguard/Models/Interior/Panel/Instruments/adf/rmi.xml</path>
+    <offsets>
+      <x-m>  0.064 </x-m>
+      <y-m>  0.490 </y-m>
+      <z-m> -0.058 </z-m>
+    </offsets>
+  </model>
+
+  <!-- VSI -->
+  <model>
+    <path>Aircraft/Vickers-Vanguard/Models/Interior/Panel/Instruments/vsi/vsi.xml</path>
+    <offsets>
+      <x-m>  0.064 </x-m>
+      <y-m> -0.490 </y-m>
+      <z-m> -0.058 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Vickers-Vanguard/Models/Interior/Panel/Instruments/vsi/vsi.xml</path>
+    <offsets>
+      <x-m>  0.064 </x-m>
+      <y-m>  0.670 </y-m>
+      <z-m> -0.058 </z-m>
+    </offsets>
+  </model>
+
+  <!-- KI206 -->
+  <model>
+    <path>Aircraft/Vickers-Vanguard/Models/Interior/Panel/Instruments/ki206/ki206.xml</path>
+    <offsets>
+      <x-m>  0.068 </x-m>
+      <y-m> -0.580 </y-m>
+      <z-m> -0.058 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Vickers-Vanguard/Models/Interior/Panel/Instruments/ki206/ki206.xml</path>
+    <offsets>
+      <x-m>  0.068 </x-m>
+      <y-m>  0.580 </y-m>
+      <z-m> -0.058 </z-m>
+    </offsets>
+  </model>
+
+  <!-- RPM -->
+  <model>
+    <path>Aircraft/Vickers-Vanguard/Models/Interior/Panel/Instruments/rpm/rpm-1.xml</path>
+    <offsets>
+      <x-m>  0.064 </x-m>
+      <y-m> -0.095 </y-m>
+      <z-m>  0.080 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Vickers-Vanguard/Models/Interior/Panel/Instruments/rpm/rpm-2.xml</path>
+    <offsets>
+      <x-m>  0.064 </x-m>
+      <y-m> -0.035 </y-m>
+      <z-m>  0.080 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Vickers-Vanguard/Models/Interior/Panel/Instruments/rpm/rpm-3.xml</path>
+    <offsets>
+      <x-m> 0.064 </x-m>
+      <y-m> 0.035 </y-m>
+      <z-m> 0.080 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Vickers-Vanguard/Models/Interior/Panel/Instruments/rpm/rpm-4.xml</path>
+    <offsets>
+      <x-m> 0.064 </x-m>
+      <y-m> 0.095 </y-m>
+      <z-m> 0.080 </z-m>
+    </offsets>
+  </model>
+
+  <!-- EGT -->
+  <model>
+    <path>Aircraft/Vickers-Vanguard/Models/Interior/Panel/Instruments/egt/egt1.xml</path>
+    <offsets>
+      <x-m>  0.064 </x-m>
+      <y-m> -0.095 </y-m>
+      <z-m>  0.034 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Vickers-Vanguard/Models/Interior/Panel/Instruments/egt/egt2.xml</path>
+    <offsets>
+      <x-m>  0.064 </x-m>
+      <y-m> -0.035 </y-m>
+      <z-m>  0.034 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Vickers-Vanguard/Models/Interior/Panel/Instruments/egt/egt3.xml</path>
+    <offsets>
+      <x-m> 0.064 </x-m>
+      <y-m> 0.035 </y-m>
+      <z-m> 0.034 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Vickers-Vanguard/Models/Interior/Panel/Instruments/egt/egt4.xml</path>
+    <offsets>
+      <x-m> 0.064 </x-m>
+      <y-m> 0.095 </y-m>
+      <z-m> 0.034 </z-m>
+    </offsets>
+  </model>
+
+  <!-- OIL -->
+  <model>
+    <path>Aircraft/Vickers-Vanguard/Models/Interior/Panel/Instruments/oil/oil-1.xml</path>
+    <offsets>
+      <x-m>  0.064 </x-m>
+      <y-m> -0.095 </y-m>
+      <z-m> -0.006 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Vickers-Vanguard/Models/Interior/Panel/Instruments/oil/oil-2.xml</path>
+    <offsets>
+      <x-m>  0.064 </x-m>
+      <y-m> -0.035 </y-m>
+      <z-m> -0.006 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Vickers-Vanguard/Models/Interior/Panel/Instruments/oil/oil-3.xml</path>
+    <offsets>
+      <x-m>  0.064 </x-m>
+      <y-m>  0.035 </y-m>
+      <z-m> -0.006 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Vickers-Vanguard/Models/Interior/Panel/Instruments/oil/oil-4.xml</path>
+    <offsets>
+      <x-m>  0.064 </x-m>
+      <y-m>  0.095 </y-m>
+      <z-m> -0.006 </z-m>
+    </offsets>
+  </model>
+
+</PropertyList>
